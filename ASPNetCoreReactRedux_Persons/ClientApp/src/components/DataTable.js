@@ -162,7 +162,7 @@ const EnhancedTableToolbar = props => {
       >
           <div>
               <Link to="/add-edit">
-                  <Button variant="contained" color="primary"  renderAs="button">
+                  <Button variant="contained" color="primary"  renderas="button">
                       <span>Adicionar Pessoa</span>
                   </Button>
               </Link>

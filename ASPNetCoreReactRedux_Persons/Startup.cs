@@ -3,6 +3,7 @@ using ASPNetCoreReactRedux_Persons.Data.Repository;
 using ASPNetCoreReactRedux_Persons.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
@@ -10,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Threading.Tasks;
 
 namespace ASPNetCoreReactRedux_Persons
 {
@@ -62,7 +64,7 @@ namespace ASPNetCoreReactRedux_Persons
             app.UseSpaStaticFiles();
 
             app.UseRouting();
-
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

@@ -29,7 +29,7 @@ export class Success extends Component {
                         <AppBar title="Success" />
                         <h2>Cadastro foi Salvo !</h2>
                         <Link to="/">
-                            <Button variant="contained" color="primary" renderAs="button">
+                            <Button variant="contained" color="primary" renderas="button">
                                 <span>Clique para voltar pra tela de Detalhe</span>
                             </Button>
                         </Link>
