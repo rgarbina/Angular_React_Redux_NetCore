@@ -14,7 +14,7 @@ Aplicar os Scripts de Banco se encontracao na pasta data ou realizar o update-da
 
 Se atentar para o endereco do servidor backend.
 
-Para quem utiliza Visual Studio 2019 abrir a solution e executar o projeto
+Para quem utiliza Visual Studio 2019 abrir a solution buildar e executar o projeto
 
 para os demais ainda nao possivel:
 
