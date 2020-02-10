@@ -1,5 +1,5 @@
 import { FETCH_USERS, ADD_USER, EDIT_USER, DELETE_USER } from "./types";
-const API_BASE_URL = 'https://localhost:5001/api/';
+const API_BASE_URL = 'https://localhost:44375/api/';
 
 const PESSOA_API_BASE_URL = API_BASE_URL + 'Pessoa';
 

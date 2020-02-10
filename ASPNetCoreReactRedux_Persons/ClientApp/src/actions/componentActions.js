@@ -1,5 +1,5 @@
 import { FETCH_COMPONENT_PESSOA, FETCH_COMPONENT_CIDADE, FETCH_COMPONENT_UF, FETCH_COMPONENT_LINGUA } from "./types";
-const API_BASE_URL = 'https://localhost:5001/api/';
+const API_BASE_URL = 'https://localhost:44375/api/';
 const COMPONENT_API_BASE_URL = API_BASE_URL + 'Component/';
 
 export const fetchUF = () => dispatch => {
