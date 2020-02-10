@@ -9,7 +9,8 @@ NodeJs,
 Microsoft SQL Server com login de autenticacao local,
 NET Core 3.0 SDK
 
-Aplicar os Scripts de Banco ou realizar o update-database com migrations.
+Aplicar os Scripts de Banco se encontracao na pasta data ou realizar o update-database com migrations.
+
 Na pasta raiz do servidor back-end restuarar os pacotes com o comando
 dotnet restore e apos dotnet watch run o servidor de API sera iniciado no endereco https://localhost:5001; http://localhost:5000.
 
